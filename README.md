@@ -12,3 +12,6 @@
 ![Maven stable version](https://user-images.githubusercontent.com/104884145/173895961-e78a8958-5b86-43a8-bf09-3e90f03c8e8d.png)
 ![Screenshot of the installed intellij](https://user-images.githubusercontent.com/104884145/173895971-ec466fc3-61fe-4aab-9c5b-d61dadd687f1.png)
 http://localhost:63342/SecondProjectCucumber/targrt/cucumber.html?_ijt=mcpqis2feaa72tb96hh7mohber&_ij_reload=RELOAD_ON_SAVE
+![screenshot for the tutor's answer in May cohort](https://user-images.githubusercontent.com/104884145/174106529-81eb4fe8-de81-4291-ae56-82c3afcda53b.png)
+![screenshot for the tutor's answer in the discourse](https://user-images.githubusercontent.com/104884145/174106549-2c113eec-08dd-4a45-830b-c578df0b1f37.png)
+
