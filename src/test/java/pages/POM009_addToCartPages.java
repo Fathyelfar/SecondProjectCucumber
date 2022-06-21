@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import stepDefinition.Hooks;
 
 public class POM009_addToCartPages {
 
@@ -28,28 +29,28 @@ public class POM009_addToCartPages {
     WebElement loginBttn;
 
 
-    @FindBy(xpath = "//div[@class='sc-3dcc674c-0 fydakl']")
+    @FindBy(xpath = "//div[@class='sc-3dcc674c-0 jJHOCL']")
     WebElement xpath1;
 
 
     public WebElement addToCartSigninElPF() {
-        return driver.findElement(By.id("dd_header_signInOrUp"));
+        return Hooks.driver.findElement(By.id("dd_header_signInOrUp"));
     }
 
     public WebElement addToCartEmailElPF() {
-        return driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
     }
 
     public WebElement addToCartPasswElPF() {
-        return driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
     }
 
     public WebElement addToCartLoginBttnPF() {
-        return driver.findElement(By.id("login-submit"));
+        return Hooks.driver.findElement(By.id("login-submit"));
     }
 
     public WebElement addToCartPF() {
-        return driver.findElement(By.xpath("//div[@class='sc-3dcc674c-0 fydakl']"));
+        return Hooks.driver.findElement(By.xpath("//div[@class='sc-3dcc674c-0 jJHOCL']"));
     }
 
 

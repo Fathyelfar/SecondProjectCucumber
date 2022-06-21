@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import stepDefinition.Hooks;
 
 public class POM008_followUsPage {
 
@@ -43,35 +44,35 @@ public class POM008_followUsPage {
 
 
     public WebElement followUsSigninElPF() {
-        return driver.findElement(By.id("dd_header_signInOrUp"));
+        return Hooks.driver.findElement(By.id("dd_header_signInOrUp"));
     }
 
     public WebElement followUsEmailElPF() {
-        return driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
     }
 
     public WebElement followUsPasswElPF() {
-        return driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
     }
 
     public WebElement followUsLoginBttnPF() {
-        return driver.findElement(By.id("login-submit"));
+        return Hooks.driver.findElement(By.id("login-submit"));
     }
 
     public WebElement xpath1() {
-       return driver.findElement(By.xpath("//div[@class='sc-160e1e76-13 jbdKGa']//div[1]//div[1]//*[name()='svg']//*[name()='path'][2]"));
+       return Hooks.driver.findElement(By.xpath("//div[@class='sc-160e1e76-13 lsHNk']//div[1]//div[1]//*[name()='svg']//*[name()='path'][2]"));
     }
 
     public WebElement xpath2() {
-        return driver.findElement(By.xpath("(//*[name()='path'][@fill-rule='evenodd'])[5]"));
+        return Hooks.driver.findElement(By.xpath("(//*[name()='path'][@fill-rule='evenodd'])[5]"));
 
     }
     public WebElement xpath3() {
-        return driver.findElement(By.xpath("(//*[name()='path'][@fill-rule='evenodd'])[6]"));
+        return Hooks.driver.findElement(By.xpath("(//*[name()='path'][@fill-rule='evenodd'])[6]"));
 
     }
     public WebElement xpath4() {
-       return driver.findElement(By.xpath("//footer[@class='sc-160e1e76-0 huMkCr']//div[4]//div[1]//*[name()='svg']//*[name()='path'][2]"));
+       return Hooks.driver.findElement(By.cssSelector("#__next > div > footer > div.sc-160e1e76-8.jtoamM > div.sc-160e1e76-1.sc-160e1e76-12.hFVvUj.cyiuvu > div:nth-child(2) > div.sc-160e1e76-15.fNWMDb > div:nth-child(4) > div > svg > path:nth-child(3)"));
 
     }
 

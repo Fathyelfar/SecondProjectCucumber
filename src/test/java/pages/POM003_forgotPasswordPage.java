@@ -5,6 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import stepDefinition.Hooks;
+
+import java.util.concurrent.TimeUnit;
 
 public class POM003_forgotPasswordPage {
     WebDriver driver;
@@ -25,22 +28,22 @@ public class POM003_forgotPasswordPage {
     WebElement submitEmailElementPF;
 
     public WebElement SignInClickElementPF (){
-        return driver.findElement(By.id("dd_header_signInOrUp"));
+        return Hooks.driver.findElement(By.id("dd_header_signInOrUp"));
     }
 
 
     public WebElement forgotPasswordElementPF (){
-        return driver.findElement(By.linkText("Forgot your password?"));
+        return Hooks.driver.findElement(By.linkText("Forgot your password?"));
     }
     public WebElement emailForgotPasswElementPF(){
-        return driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
     }
     public WebElement submitEmailElementPF(){
-        return driver.findElement(By.cssSelector("#login-submit"));
+        return Hooks.driver.findElement(By.cssSelector("#login-submit"));
     }
 
     public void forgotPasswUsingPF() throws InterruptedException {
-       // driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+       Hooks.driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
 
                 SignInClickElementPF.click();
                 Thread.sleep(4000);

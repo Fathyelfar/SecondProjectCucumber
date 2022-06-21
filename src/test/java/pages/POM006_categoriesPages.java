@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import stepDefinition.Hooks;
 
 public class POM006_categoriesPages {
 
@@ -37,27 +38,27 @@ public class POM006_categoriesPages {
 
 
     public WebElement categorySigninElPF() {
-        return driver.findElement(By.id("dd_header_signInOrUp"));
+        return Hooks.driver.findElement(By.id("dd_header_signInOrUp"));
     }
 
     public WebElement categoryEmailElPF() {
-        return driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
     }
 
     public WebElement categoryPasswElPF() {
-        return driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
     }
 
     public WebElement categoryLoginBttnPF() {
-        return driver.findElement(By.id("login-submit"));
+        return Hooks.driver.findElement(By.id("login-submit"));
     }
 
     public WebElement categoryPF() {
-        return driver.findElement(By.partialLinkText("Beverages"));
+        return Hooks.driver.findElement(By.partialLinkText("Beverages"));
     }
 
     public WebElement subCategoryPF() {
-        return driver.findElement(By.linkText("Juices"));
+        return Hooks.driver.findElement(By.linkText("Juices"));
     }
 
 

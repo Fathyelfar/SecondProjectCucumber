@@ -1,7 +1,5 @@
 @smoke
 Feature: test login functionality
-  Background:
-    Given open the browser
 
   Scenario: User could log in with valid email and password
     When click sign in and enter the registered email and password

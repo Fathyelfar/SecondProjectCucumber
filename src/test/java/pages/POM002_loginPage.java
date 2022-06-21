@@ -5,12 +5,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import java.util.concurrent.TimeUnit;
+import stepDefinition.Hooks;
 
 
 public class POM002_loginPage {
     WebDriver driver;
+
     public POM002_loginPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -18,7 +18,7 @@ public class POM002_loginPage {
     }
 
 
-    @FindBy(xpath = "//span[@id='dd_header_signInOrUp']")
+    @FindBy(xpath = "///html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[4]/div[1]/button[1]/span[1]")
     WebElement signinEle;
 
 
@@ -35,22 +35,19 @@ public class POM002_loginPage {
 
 
     public WebElement signinElementPF(){
-        return driver.findElement(By.xpath("//span[@id='dd_header_signInOrUp']"));
+        return Hooks.driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[4]/div[1]/button[1]/span[1]"));
     }
 
     public WebElement emailElementPF(){
-        return driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
     }
 
     public WebElement passwordElementPF(){
-        return driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
     }
     public WebElement loginBttnPF(){
-        return  driver.findElement(By.id("login-submit"));
+        return  Hooks.driver.findElement(By.id("login-submit"));
     }
-
-
-
 
 
     }

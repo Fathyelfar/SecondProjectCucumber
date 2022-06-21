@@ -5,13 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import java.util.concurrent.TimeUnit;
+import stepDefinition.Hooks;
 
 public class POM004_searchPage {
 
            WebDriver driver;
-         public POM004_searchPage(WebDriver driver) {
+
+    public POM004_searchPage(WebDriver driver) {
             this.driver = driver;
             PageFactory.initElements(driver, this);
 
@@ -33,22 +33,22 @@ public class POM004_searchPage {
     WebElement searchFieldElement;
 
     public WebElement searchSigninElPF(){
-        return driver.findElement(By.id("dd_header_signInOrUp"));
+        return Hooks.driver.findElement(By.id("dd_header_signInOrUp"));
     }
 
     public WebElement searchEmailElementPF(){
-        return driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"emailInput\"]"));
     }
 
     public WebElement searchPasswElementPF(){
-        return driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
+        return Hooks.driver.findElement(By.xpath("//*[@id=\"passwordInput\"]"));
     }
     public WebElement searchLoginBttnPF(){
-        return  driver.findElement(By.id("login-submit"));
+        return  Hooks.driver.findElement(By.id("login-submit"));
     }
     public WebElement searchField(){
-        return   driver.findElement(By.id("searchBar"));
-    }
+        return Hooks.driver.findElement(By.id("searchBar"));}
+
 
 
 

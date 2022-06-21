@@ -5,10 +5,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import stepDefinition.Hooks;
 
 
-public class POM001_registrationPage {
+public class POM001_registrationPage  {
     WebDriver driver;
+
+
     public POM001_registrationPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
@@ -38,25 +41,25 @@ public class POM001_registrationPage {
 
 
         public WebElement signinElementPF(){
-            return driver.findElement(By.id("dd_header_signInOrUp"));
+            return Hooks.driver.findElement(By.id("dd_header_signInOrUp"));
         }
        public WebElement signupElementPF(){
-        return driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/h3[2]"));
+        return Hooks.driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/h3[2]"));
     }
         public WebElement regEmailElementPF(){
-            return driver.findElement(By.id("emailInput"));
+            return  Hooks.driver.findElement(By.id("emailInput"));
         }
         public WebElement regPasswordElementPF(){
-            return driver.findElement(By.id("passwordInput"));
+            return Hooks.driver.findElement(By.id("passwordInput"));
     }
         public WebElement firstNameElementPF(){
-           return driver.findElement(By.id("firstNameInput"));
+           return Hooks.driver.findElement(By.id("firstNameInput"));
          }
         public WebElement lastNameElementPF(){
-           return driver.findElement(By.id("lastNameInput"));
+           return Hooks.driver.findElement(By.id("lastNameInput"));
     }
         public WebElement createAcctElementPF(){
-           return driver.findElement(By.id("login-submit"));
+           return  Hooks.driver.findElement(By.id("login-submit"));
     }
 
 

@@ -1,10 +1,11 @@
      @smoke
       Feature: testing follow us links functionality
+        Background:
+          Given User log in to the website
 
-      Background:
-      Given User open the browser and log in
 
-      Scenario: logged user able to click on facebook icon
+
+        Scenario: logged user able to click on facebook icon
         When  scroll down and click on facebook icon
         Then  switch the url to the childWindow and confirm it
 

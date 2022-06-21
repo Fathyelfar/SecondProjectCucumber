@@ -1,7 +1,7 @@
 @smoke
 Feature: test search functionality
-  Background:
-  Given  user logged in with valid credential
+ Background:
+   Given user logged into the website
 
   Scenario: Logged User could search for any product
     When  click in the search field and searched by the word mobiles
