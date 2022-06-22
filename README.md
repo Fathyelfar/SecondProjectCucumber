@@ -14,4 +14,33 @@
 http://localhost:63342/SecondProjectCucumber/targrt/cucumber.html?_ijt=mcpqis2feaa72tb96hh7mohber&_ij_reload=RELOAD_ON_SAVE
 ![screenshot for the tutor's answer in May cohort](https://user-images.githubusercontent.com/104884145/174106529-81eb4fe8-de81-4291-ae56-82c3afcda53b.png)
 ![screenshot for the tutor's answer in the discourse](https://user-images.githubusercontent.com/104884145/174106549-2c113eec-08dd-4a45-830b-c578df0b1f37.png)
+![Snapshot Maven Project External Libraries](https://user-images.githubusercon
+![Screenshot of the ins
+![Selenium Java mvn repository](https://user-images.githubusercontent.com/104884145/174899223-48e497ad-1f24-41d8-8c4b-cac92ef36575.png)
+talled intellij](https://user-images.githubusercontent.com/104884145/174899208-d0f16e5f-ebfc-46a8-af37-32f42b3017ed.png)
+tent.com/104884145/174899093-0742f6e2-bbc6-4b2c-893f-6
+![maven official website](https://user-images.githubusercontent.com/104884145/174899187-47e9918e-77e2-4ff8-ab80-a1f01d176682.png)
+
+![Screenshot Maven version in project setting](https://user-images.githubusercontent.com/104884145/174899178-e0dc90a1-620d-40fb-ad83-355c91e1e1f4.png)
+
+![mvn version screenshot](https://user-images.githubusercontent.com/104884145/174899137-954a54c9-00ae-4eb9-8cd7-28bfd214e803.png)
+
+![Selenium Java mvn repository](https://user-images.githubusercontent.com/104884145/174899123-dbc7aefd-1af6-4bcc-a5d0-ccfa40ad6ce6.png)
+8f9b42f2e7a.png)
+![Snapshot Maven Project External Libraries](https://user-images.githubusercon
+![Screenshot of the ins
+![Selenium Java mvn repository](https://user-images.githubusercontent.com/104884145/174899223-48e497ad-1f24-41d8-8c4b-cac92ef36575.png)
+talled intellij](https://user-images.githubusercontent.com/104884145/174899208-d0f16e5f-ebfc-46a8-af37-32f42b3017ed.png)
+tent.com/104884145/174899093-0742f6e2-bbc6-4b2c-893f-6
+![maven official website](https://user-images.githubusercontent.com/104884145/174899187-47e9918e-77e2-4ff8-ab80-a1f01d176682.png)
+
+![Screenshot Maven version in project setting](https://user-images.githubusercontent.com/104884145/174899178-e0dc90a1-620d-40fb-ad83-355c91e1e1f4.png)
+
+![mvn version screenshot](https://user-images.githubusercontent.com/104884145/174899137-954a54c9-00ae-4eb9-8cd7-28bfd214e803.png)
+
+![Selenium Java mvn repository](https://user-images.githubusercontent.com/104884145/174899123-dbc7aefd-1af6-4bcc-a5d0-ccfa40ad6ce6.png)
+8f9b42f2e7a.png)
+![Snapshot Maven Project External Libraries](https://user-images.githubusercontent.com/104884145/174899571-8a1fd7b4-1754-47ac-a010-c1c5dc0123f7.png)
+
+
 
